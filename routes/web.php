@@ -23,7 +23,11 @@ Route::get('/',function () {
 
 });
 
+Route::get('/admin/setup_project',function () {
+    $project = \App\project::All();
+    return view('Admin/SetupProject',compact('project'));
 
+});
 
 
 Route::any('/home','loginController@login');

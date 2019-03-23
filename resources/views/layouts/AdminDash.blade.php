@@ -93,43 +93,26 @@
                         <a href="/home"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                     </li>
 
-                    {{--<li>--}}
-                        {{--<a href="#"><i class=" glyphicon glyphicon-cog"></i> Accounts<span class="fa arrow"></span></a>--}}
-                        {{--<ul class="nav nav-second-level">--}}
-                            {{--<li>--}}
-                                {{--<a href="/admin/add_doctor"><i class=" glyphicon glyphicon-cog"></i> Administrators</a>--}}
-                            {{--</li>--}}
 
-                        {{--</ul>--}}
-                        {{--<!-- /.nav-second-level -->--}}
-                    {{--</li>--}}
+                    <li>
+                        <a href="/admin/setup_project"><i class="glyphicon glyphicon-home"></i> Setup Project</a>
+                    </li>
 
-                    {{--<li>--}}
-                        {{--<a href="#"><i class=" glyphicon glyphicon-user "></i> Staffs<span class="fa arrow"></span></a>--}}
-                        {{--<ul class="nav nav-second-level">--}}
-                            {{--<li>--}}
-                                {{--<a href="/admin/add_staff_record"> Staff Registration</a>--}}
-                            {{--</li>--}}
-                            {{--<li>--}}
-                                {{--<a href="/admin/add_staff_record"> Staff File Creation</a>--}}
-                            {{--</li>--}}
-                            {{--<li>--}}
-                                {{--<a href="/admin/view_staff_record"> View Staffs</a>--}}
-                            {{--</li>--}}
-                        {{--</ul>--}}
+                    <li>
+                        <a href="/admin/setup_project"><i class="glyphicon glyphicon-home"></i>  Project</a>
+                    </li>
 
-                    {{--</li>--}}
+                    <li>
+                        <a href="/admin/department"><i class="glyphicon glyphicon-home"></i> Allocate Members</a>
+                    </li>
 
-                    {{--<li>--}}
-                        {{--<a href="/admin/faculty"><i class="glyphicon glyphicon-home"></i> Faculties</a>--}}
-                    {{--</li>--}}
+                    <li>
+                        <a href="/admin/department"><i class="glyphicon glyphicon-home"></i> Reviews</a>
+                    </li>
 
-                    {{--<li>--}}
-                        {{--<a href="/admin/department"><i class="glyphicon glyphicon-home"></i> Departments</a>--}}
-                    {{--</li>--}}
-
-
-
+                    <li>
+                        <a href="/admin/department"><i class="glyphicon glyphicon-home"></i> Papers</a>
+                    </li>
                 </ul>
                 <!-- /#side-menu -->
             </div>
